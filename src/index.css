@@ -9,23 +9,6 @@ h3 {
   font-weight: bold;
 }
 
-.header {
-  background-color: #262524;
-  color: #f8f8f8;
-  text-align: center;
-  padding: 20px 0;
-  font-size: 1.8rem;
-  font-weight: bold;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  border-bottom: 4px solid #efeeec;
-}
-
-.header h1 {
-  margin: 0;
-  letter-spacing: 1.5px;
-  text-transform: uppercase;
-}
-
 .add-list-form {
   background-color: #f8f8f8;
   border: 1px solid #ddd;
@@ -193,77 +176,11 @@ h3 {
   transition: all 0.3s ease-in-out;
 }
 
-.empty:hover {
-  background-color: #ffefef;
-  transform: scale(1.05);
-}
-
-.empty:before {
-  content: "🛒";
-  font-size: 1.5rem;
-  display: block;
-  margin-bottom: 10px;
-}
-
 .empty p {
   font-weight: bold;
   font-size: 1.1rem;
   color: #ff6f61;
   margin: 0;
-}
-
-@media (max-width: 768px) {
-  .maincontianer {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .add-list-form {
-    width: 100%;
-    margin-right: 0;
-    margin-bottom: 20px;
-  }
-
-  .allproduact {
-    gap: 10px;
-  }
-
-  .item {
-    width: 90%;
-    margin-bottom: 20px;
-  }
-
-  .shopping-cart-item {
-    width: 90%;
-    margin-bottom: 15px;
-  }
-
-  .header h1 {
-    font-size: 1.5rem;
-  }
-}
-
-@media (min-width: 769px) {
-  .maincontianer {
-    flex-direction: row;
-  }
-
-  .add-list-form {
-    width: 300px;
-    margin-right: 20px;
-  }
-
-  .allproduact {
-    gap: 20px;
-  }
-
-  .item {
-    width: 200px;
-  }
-
-  .shopping-cart-item {
-    width: 270px;
-  }
 }
 
 .buttons {
@@ -289,20 +206,6 @@ h3 {
   transform: translateY(1px);
 }
 
-@media (max-width: 768px) {
-  .buttons {
-    width: 100%;
-    font-size: 1rem;
-  }
-}
-
-@media (min-width: 769px) {
-  .buttons {
-    width: auto;
-    font-size: 0.9rem;
-  }
-}
-
 .buy-button {
   background-color: #28a745;
 }
@@ -317,20 +220,4 @@ h3 {
 
 .close-button:hover {
   background-color: #c82333;
-}
-
-@media (max-width: 768px) {
-  .buy-button,
-  .close-button {
-    width: 100%;
-    padding: 12px;
-  }
-}
-
-@media (min-width: 769px) {
-  .buy-button,
-  .close-button {
-    width: auto;
-    padding: 8px 16px;
-  }
 }

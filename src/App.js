@@ -95,11 +95,31 @@ export default function App() {
 
 function Headers() {
   return (
-    <header className="header">
-      <h1>header</h1>
+    <header
+      style={{
+        backgroundColor: "#262524",
+        color: "#f8f8f8",
+        textAlign: "center",
+        padding: "20px 0",
+        fontSize: "1.8rem",
+        fontWeight: "bold",
+        boxShadow: "0 4px 6px rgba(0, 0, 0, 0.1)",
+        borderBottom: "4px solid #efeeec",
+      }}
+    >
+      <h1
+        style={{
+          margin: 0,
+          letterSpacing: "1.5px",
+          textTransform: "uppercase",
+        }}
+      >
+        header
+      </h1>
     </header>
   );
 }
+
 function ShoppingCartItem({ cart, close }) {
   return (
     <div className="shopping-cart">
