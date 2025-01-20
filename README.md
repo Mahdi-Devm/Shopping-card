@@ -15,6 +15,6 @@ Features:
 
 Technologies Used:
 
-    React (Hooks: useState, useEffect)
+    React (Hooks: useState)
     JavaScript (ES6)
     HTML5 and CSS3
