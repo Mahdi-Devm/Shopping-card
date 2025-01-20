@@ -18,3 +18,4 @@ Technologies Used:
     React (Hooks: useState)
     JavaScript (ES6)
     HTML5 and CSS3
+    Classic design
