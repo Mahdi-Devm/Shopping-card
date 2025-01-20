@@ -89,6 +89,7 @@ export default function App() {
           Buyitem={Buyitem}
         />
       </div>
+      <Footer />
     </>
   );
 }
@@ -119,7 +120,32 @@ function Headers() {
     </header>
   );
 }
-
+function Footer() {
+  return (
+    <footer
+      style={{
+        backgroundColor: "#262524",
+        color: "#f8f8f8",
+        textAlign: "center",
+        padding: "20px 0",
+        fontSize: "1.2rem",
+        fontWeight: "bold",
+        boxShadow: "0 -4px 6px rgba(0, 0, 0, 0.1)",
+        borderTop: "4px solid #efeeec",
+      }}
+    >
+      <p
+        style={{
+          margin: 0,
+          letterSpacing: "1.5px",
+          textTransform: "uppercase",
+        }}
+      >
+        footer
+      </p>
+    </footer>
+  );
+}
 function ShoppingCartItem({ cart, close }) {
   return (
     <div className="shopping-cart">
